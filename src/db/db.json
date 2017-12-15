@@ -1,0 +1,16 @@
+[
+  {
+    "name": "20minutes",
+    "slug": "20minutes/index.html",
+    "vertical": ["news-business"],
+    "integrationtype": "infeed",
+    "device":"desktop"
+  },
+  {
+    "name": "20minutes 2",
+    "slug": "20minutes2/index.html",
+    "vertical": ["news-business"],
+    "integrationtype": "intext",
+    "device":"mobile"
+  }
+]

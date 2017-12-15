@@ -1,0 +1,46 @@
+{
+  "name": "advertiser-demo-generator",
+  "version": "1.0.0",
+  "description": "Public advertiser demo generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "prod": "gulp --env=prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adyoulike/advertiser-demo-generator-public.git"
+  },
+  "keywords": [
+    "adyoulike",
+    "advertiser",
+    "demo",
+    "generator"
+  ],
+  "author": "adyoulike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Adyoulike/advertiser-demo-generator-public/issues"
+  },
+  "homepage": "https://github.com/Adyoulike/advertiser-demo-generator-public#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.7.6",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-postcss": "^6.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1"
+  },
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4"
+  }
+}

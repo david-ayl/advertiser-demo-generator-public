@@ -1,0 +1,50 @@
+{
+  "comments": {
+    "informations" : "filters are listed below. DO NOT USE CAPITALS. databases are listed in the 'database' key",
+    "name_pattern" : "website section iab type",
+    "section" : [
+      "home",
+      "category",
+      "article"
+    ],
+    "type" : [
+      "infeed",
+      "inad",
+      "intext"
+    ],
+    "iab" : [
+      "arts-entertainment",
+      "automotive",
+      "business",
+      "careers",
+      "education",
+      "family-parenting",
+      "food-drink",
+      "health-fitness",
+      "hobbies-interest",
+      "home-garden",
+      "news",
+      "personal-finance",
+      "pets",
+      "real-estate",
+      "science",
+      "shopping",
+      "society",
+      "sport",
+      "style-fashion",
+      "technology-computing",
+      "travel"
+    ],
+    "device" : [
+      "desktop",
+      "mobile",
+      "tablet"
+    ]
+  },
+  "database" : {
+    "fr" : "http://public.adyoulike.com/public-generator-websites/db_generator.json"
+  },
+  "websites" : {
+    "fr" : "http://public.adyoulike.com/public-generator-websites/"
+  }
+}

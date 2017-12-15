@@ -1,0 +1,286 @@
+@import "partials/colors.scss";
+
+.tag_unit{
+  position:relative;
+  padding:0 0 10px 0;
+}
+.tag_value{
+  font-size:10px;
+  position:absolute;
+  color: $blue;
+  display:block;
+  bottom:0;
+  left:50%;
+  &:after{
+    display:block;
+    position:absolute;
+    bottom:0px;
+    bottom:50%;
+    transform:translateX(-50%) translateY(50%);
+  }
+}
+.svg_tag_icon{
+  display:inline-block;
+  position:relative;
+  width:24px;
+  height:24px;
+  margin:0;
+  padding:0;
+  background-color:$blue;
+  &.male{
+    background: url("../images/IAB-male.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "man";
+      }
+    }
+  }
+  &.woman{
+    background: url("../images/IAB-woman.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "woman";
+      }
+    }
+  }
+  &.news-business{
+    background: url("../images/IAB-news.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "news business";
+      }
+    }
+  }
+  &.arts-entertainment{
+    background: url("../images/IAB-arts-entertainment.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "entertain.";
+      }
+    }
+  }
+  &.auto{
+    background: url("../images/IAB-auto.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "auto";
+      }
+    }
+  }
+  &.business{
+    background: url("../images/IAB-business.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "business";
+      }
+    }
+  }
+  &.careers{
+    background: url("../images/IAB-careers.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "careers";
+      }
+    }
+  }
+  &.education{
+    background: url("../images/IAB-education.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "education";
+      }
+    }
+  }
+  &.family-parenting{
+    background: url("../images/IAB-family-parenting.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "family";
+      }
+    }
+  }
+  &.food-drink{
+    background: url("../images/IAB-food-drink.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "food";
+      }
+    }
+  }
+  &.hobbies-interest{
+    background: url("../images/IAB-hobbies-interest.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "hobbies";
+      }
+    }
+  }
+  &.health{
+    background: url("../images/IAB-health.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "health";
+      }
+    }
+  }
+  &.home-garden{
+    background: url("../images/IAB-home-garden.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "home garden";
+      }
+    }
+  }
+  &.finance{
+    background: url("../images/IAB-personal-finance.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "finance";
+      }
+    }
+  }
+  &.society{
+    background: url("../images/IAB-society.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "society";
+      }
+    }
+  }
+  &.science{
+    background: url("../images/IAB-science.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "science";
+      }
+    }
+  }
+  &.pets{
+    background: url("../images/IAB-pets.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "pets";
+      }
+    }
+  }
+  &.sport{
+    background: url("../images/IAB-sport.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "sport";
+      }
+    }
+  }
+  &.style-fashion{
+    background: url("../images/IAB-style-fashion.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "style";
+      }
+    }
+  }
+  &.technology{
+    background: url("../images/IAB-technology.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "tech";
+      }
+    }
+  }
+  &.travel{
+    background: url("../images/IAB-travel.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "travel";
+      }
+    }
+  }
+  &.real-estate{
+    background: url("../images/IAB-real-estate.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "real estate";
+      }
+    }
+  }
+  &.shopping{
+    background: url("../images/IAB-shopping.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "shopping";
+      }
+    }
+  }
+  &.article{
+    background: url("../images/SECTION-Article.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "article";
+      }
+    }
+  }
+  &.category{
+    background: url("../images/SECTION-Category.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "category";
+      }
+    }
+  }
+  &.hp{
+    background: url("../images/SECTION-Home.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "home";
+      }
+    }
+  }
+  &.desktop{
+    background: url("../images/DEVICE-desktop.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "desktop";
+      }
+    }
+  }
+  &.mobile{
+    background: url("../images/DEVICE-mobile.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "mobile";
+      }
+    }
+  }
+  &.tablet{
+    background: url("../images/DEVICE-tablet.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "tablet";
+      }
+    }
+  }
+  &.inad{
+    background: url("../images/TYPE-inad.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "inad";
+      }
+    }
+  }
+  &.infeed{
+    background: url("../images/TYPE-infeed.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "infeed";
+      }
+    }
+  }
+  &.intext{
+    background: url("../images/TYPE-intext.svg") no-repeat 50% 50%;
+    & + .tag_value{
+      &:after{
+        content: "intext";
+      }
+    }
+  }
+}
